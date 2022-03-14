@@ -899,7 +899,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("../assets/AEC.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -916,16 +916,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
+#venue .venue-info #info{
+  display: flex;
+  padding-top: 30px;
+}
+
 #venue .venue-info h3 {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
 }
 
-#venue .venue-info p {
+/* #venue .venue-info p {
   color: #fff;
   margin-bottom: 0;
-}
+} */
 
 #venue .venue-gallery-container {
   padding-right: 12px;
@@ -950,7 +955,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Hotels Section
 --------------------------------------------------------------*/
 
-#hotels {
+/* #hotels {
   padding: 60px 0;
 }
 
@@ -1004,7 +1009,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #060c22;
   font-style: italic;
   font-size: 15px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Gallery Section
@@ -1050,6 +1055,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 4px;
   background: #fff;
   z-index: 1;
+}
+
+.galleryImg{
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1171,7 +1184,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#subscribe input {
+/* #subscribe input {
   background: #fff;
   color: #060c22;
   border: 0;
@@ -1196,8 +1209,57 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #subscribe button:hover {
   background: #e0072f;
+} */
+#subscribe .speaker {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
+#subscribe .speaker .details {
+  background: rgba(6, 12, 34, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#subscribe .speaker .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#subscribe .speaker .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#subscribe .speaker .details .social {
+  height: 30px;
+}
+
+#subscribe .speaker .details a {
+  color: #fff;
+}
+
+#subscribe .speaker .details a:hover {
+  color: #f82249;
+}
+
+#subscribe .speaker:hover .details {
+  bottom: 0;
+}
+
+.judgeCard{
+  border-radius: 50%;
+}
 /*--------------------------------------------------------------
 # Buy Tickets Section
 --------------------------------------------------------------*/
@@ -1515,12 +1577,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
   background: #e0072f;
-}
-
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
+}spons
 
 #footer .credits {
   text-align: center;
