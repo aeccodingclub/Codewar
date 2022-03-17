@@ -113,7 +113,151 @@
                 </div>
             </div>
         </section>
+        <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+            <div class="container dark">
+                <div class="section-header">
+                    <h2>Events</h2>
 
+                </div>
+                <div class="flex-container">
+                    <div class="flex-left">
+                        <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted text-uppercase text-center">
+                                    Decode-Stack
+                                </h5>
+                                <p style="color: #000">The event will be conducted in two stages: the Debugging round, and the Final Code War. We shall provide participation certificate to all the participating students, goodies to the winner of the debugging round and finally,
+                                    the three winners of the competition shall get prizes and certificates.</p>
+                                <br>
+                                <div class="text-center">
+                                    <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">
+                      Resister Now
+                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-right">
+                        <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted text-uppercase text-center">
+                                    Codestallation
+                                </h5>
+                                <p></p> hours software based hackathon shall be conducted starting from introduction of problem statement to submission of the final software. Food shall be provided to the contestants. Judges from different industries and
+                                different academic azures will decide the winner and thereafter prizes and certificates will be provided. </p>
+
+                                <div class="text-center">
+                                    <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">
+                      Register Now
+                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+            <div class="col-lg-4" style="flex: 0 0 49%;
+    max-width: 49%;">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">
+                    Decode-Stack
+                  </h5>
+                  <p>The event will be conducted in two stages: the Debugging
+round, and the Final Code War. We shall provide participation
+certificate to all the participating students, goodies to the
+winner of the debugging round and finally, the three winners
+of the competition shall get prizes and certificates.</p>
+                  <div class="text-center">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-toggle="modal"
+                      data-target="#buy-ticket-modal"
+                      data-ticket-type="standard-access"
+                    >
+                      Resister Now
+                    </button>
+                  </div>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4"  style="flex: 0 0 49%;
+    max-width: 49%;">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">
+                    Codestallation
+                  </h5>
+                  <p>A 24 hours software based hackathon shall be conducted
+starting from introduction of problem statement to
+submission of the final software. Food shall be provided to
+the contestants. Judges from different industries and
+different academic azures will decide the winner and
+thereafter prizes and certificates will be provided.
+</p>
+                  
+                  <div class="text-center">
+                    <button
+                      type="button"
+                      class="btn"
+                      data-toggle="modal"
+                      data-target="#buy-ticket-modal"
+                      data-ticket-type="pro-access"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pro Tier -->
+
+                <!-- </div> -->
+            </div>
+
+            <!-- Modal Order Form -->
+            <div id="buy-ticket-modal" class="modal fade">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Buy Tickets</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                        </div>
+                        <div class="modal-body">
+                            <form method="POST" action="#">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="your-name" placeholder="Your Name" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="your-email" placeholder="Your Email" />
+                                </div>
+                                <div class="form-group">
+                                    <select id="ticket-type" name="ticket-type" class="form-control">
+                      <option value="">-- Select Your Ticket Type --</option>
+                      <option value="standard-access">Standard Access</option>
+                      <option value="pro-access">Pro Access</option>
+                      <option value="premium-access">Premium Access</option>
+                    </select>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn">Buy Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+        </section>
         <!--==========================
       Speakers Section
     ============================-->
@@ -251,7 +395,7 @@
         <!--==========================
       Schedule Section
     ============================-->
-        <section id="schedule" class="section-with-bg">
+        <section id="schedule" class="section">
             <div class="container wow fadeInUp">
                 <div class="section-header">
                     <h2>Event Schedule</h2>
@@ -260,7 +404,7 @@
 
                 <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">30 March</a
+                        <a class="nav-link" href="#day-1" role="tab" data-toggle="tab">30 March</a
 
               >
             </li>
@@ -329,11 +473,14 @@
                   <h4>closing <span>Decode-Stack</span></h4>
                 </div>
               </div>
+              <div></div>
+              <div></div>
+              <div></div>
             </div>
             <!-- End Schdule Day 1 -->
             <div
               role="tabpanel"
-              class="col-lg-9 tab-pane fade show active"
+              class="col-lg-9 tab-pane fade"
               id="day-2"
             >
               <div class="row schedule-item">
@@ -407,102 +554,7 @@
                 </div>
               </div>
             </div>
-            <!-- End Schdule Day 2 -->
 
-            <!-- Schdule Day 3 -->
-
-            <!-- <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
-
-            <div class="row schedule-item">
-              <div class="col-md-2"><time>10:00 AM</time></div>
-              <div class="col-md-10">
-                <div class="speaker">
-                  <img src="img/speakers/2.jpg" alt="Hubert Hirthe">
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>11:00 AM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img src="img/speakers/3.jpg" alt="Cole Emmerich" />
-                  </div>
-                  <h4>
-                    Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span>
-                  </h4>
-                  <p>
-                    Veniam accusantium laborum nihil eos eaque accusantium
-                    aspernatur.
-                  </p>
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>12:00 AM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img src="img/speakers/1.jpg" alt="Brenden Legros" />
-                  </div>
-                  <h4>
-                    Libero corrupti explicabo itaque.
-                    <span>Brenden Legros</span>
-                  </h4>
-                  <p>Facere provident incidunt quos voluptas.</p>
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>02:00 PM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img src="img/speakers/4.jpg" alt="Jack Christiansen" />
-                  </div>
-                  <h4>
-                    Qui non qui vel amet culpa sequi.
-                    <span>Jack Christiansen</span>
-                  </h4>
-                  <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>03:00 PM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img src="img/speakers/5.jpg" alt="Alejandrin Littel" />
-                  </div>
-                  <h4>
-                    Quos ratione neque expedita asperiores.
-                    <span>Alejandrin Littel</span>
-                  </h4>
-                  <p>
-                    Eligendi quo eveniet est nobis et ad temporibus odio quo.
-                  </p>
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>04:00 PM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img src="img/speakers/6.jpg" alt="Willow Trantow" />
-                  </div>
-                  <h4>
-                    Quo qui praesentium nesciunt <span>Willow Trantow</span>
-                  </h4>
-                  <p>
-                    Voluptatem et alias dolorum est aut sit enim neque
-                    veritatis.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-
-          </div> -->
-
-            <!-- End Schdule Day 2 -->
           </div>
         </div>
       </section>
@@ -711,35 +763,35 @@
 
                 </div> -->
 
-        <!-- </section> --> -->
+        <!-- </section> -->-->
 
         <section id="gallery" class="wow fadeInUp">
 
-          <div class="container">
-            <div class="section-header">
-              <h2>Gallery</h2>
-              <p>Check out our gallery</p>
+            <div class="container">
+                <div class="section-header">
+                    <h2>Gallery</h2>
+                    <p>Check out our gallery</p>
+                </div>
             </div>
-          </div>
-    
-          <div class="owl-carousel gallery-carousel">
-            <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg" class="galleryImg" alt=""></a>
-            <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg" class="galleryImg" alt=""></a>
-            <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg" class="galleryImg" alt=""></a>
-            <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg" class="galleryImg" alt=""></a>
-            <!-- <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg" class="galleryImg" alt=""></a>
+
+            <div class="owl-carousel gallery-carousel">
+                <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg" class="galleryImg" alt=""></a>
+                <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg" class="galleryImg" alt=""></a>
+                <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg" class="galleryImg" alt=""></a>
+                <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg" class="galleryImg" alt=""></a>
+                <!-- <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg" class="galleryImg" alt=""></a>
             <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg" class="galleryImg" alt=""></a>
             <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.jpg" class="galleryImg" alt=""></a>
             <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.jpg" class="galleryImg" alt=""></a> -->
-          </div>
-    
+            </div>
+
         </section>
 
         <!--==========================
       Sponsors Section
     ============================-->
         <section id="supporters" class="section-with-bg wow fadeInUp">
-            <div class="container">
+            <div class="container dark">
                 <div class="section-header">
                     <h2>Sponsors</h2>
                 </div>
@@ -1024,151 +1076,255 @@
         <!--==========================
       Buy Ticket Section
     ============================-->
-        <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Events</h2>
+        <!--==========================
+      Speakers Section
+    ============================-->
 
-                </div>
-                <div class="flex-container">
-                    <div class="flex-left">
-                        <div class="card mb-5 mb-lg-0">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted text-uppercase text-center">
-                                    Decode-Stack
-                                </h5>
-                                <p style="color: #000">The event will be conducted in two stages: the Debugging round, and the Final Code War. We shall provide participation certificate to all the participating students, goodies to the winner of the debugging round and finally,
-                                    the three winners of the competition shall get prizes and certificates.</p>
-                                <br>
-                                <div class="text-center">
-                                    <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">
-                      Resister Now
-                    </button>
-                                </div>
+        <section id="speakers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Organising Team</h2>
+          <p>Here are our official team for Codewar 3.0</p>
+        </div>
 
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="flex-right">
-                        <div class="card mb-5 mb-lg-0">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted text-uppercase text-center">
-                                    Codestallation
-                                </h5>
-                                <p></p> hours software based hackathon shall be conducted starting from introduction of problem statement to submission of the final software. Food shall be provided to the contestants. Judges from different industries and
-                                different academic azures will decide the winner and thereafter prizes and certificates will be provided. </p>
-
-                                <div class="text-center">
-                                    <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">
-                      Register Now
-                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="row">
-            <div class="col-lg-4" style="flex: 0 0 49%;
-    max-width: 49%;">
-              <div class="card mb-5 mb-lg-0">
-                <div class="card-body">
-                  <h5 class="card-title text-muted text-uppercase text-center">
-                    Decode-Stack
-                  </h5>
-                  <p>The event will be conducted in two stages: the Debugging
-round, and the Final Code War. We shall provide participation
-certificate to all the participating students, goodies to the
-winner of the debugging round and finally, the three winners
-of the competition shall get prizes and certificates.</p>
-                  <div class="text-center">
-                    <button
-                      type="button"
-                      class="btn"
-                      data-toggle="modal"
-                      data-target="#buy-ticket-modal"
-                      data-ticket-type="standard-access"
-                    >
-                      Resister Now
-                    </button>
-                  </div>
-                   
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4"  style="flex: 0 0 49%;
-    max-width: 49%;">
-              <div class="card mb-5 mb-lg-0">
-                <div class="card-body">
-                  <h5 class="card-title text-muted text-uppercase text-center">
-                    Codestallation
-                  </h5>
-                  <p>A 24 hours software based hackathon shall be conducted
-starting from introduction of problem statement to
-submission of the final software. Food shall be provided to
-the contestants. Judges from different industries and
-different academic azures will decide the winner and
-thereafter prizes and certificates will be provided.
-</p>
-                  
-                  <div class="text-center">
-                    <button
-                      type="button"
-                      class="btn"
-                      data-toggle="modal"
-                      data-target="#buy-ticket-modal"
-                      data-ticket-type="pro-access"
-                    >
-                      Buy Now
-                    </button>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/1.jpg"
+                  alt="Speaker 1"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Brenden Legros</a></h3>
+                  <p>Quas alias incidunt</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- Pro Tier -->
-
-                <!-- </div> -->
-            </div>
-
-            <!-- Modal Order Form -->
-            <div id="buy-ticket-modal" class="modal fade">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Buy Tickets</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-                        </div>
-                        <div class="modal-body">
-                            <form method="POST" action="#">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="your-name" placeholder="Your Name" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="your-email" placeholder="Your Email" />
-                                </div>
-                                <div class="form-group">
-                                    <select id="ticket-type" name="ticket-type" class="form-control">
-                      <option value="">-- Select Your Ticket Type --</option>
-                      <option value="standard-access">Standard Access</option>
-                      <option value="pro-access">Pro Access</option>
-                      <option value="premium-access">Premium Access</option>
-                    </select>
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit" class="btn">Buy Now</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <!-- /.modal-content -->
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/2.jpg"
+                  alt="Speaker 2"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
+                  <p>Consequuntur odio aut</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
                 </div>
-                <!-- /.modal-dialog -->
+              </div>
             </div>
-            <!-- /.modal -->
-        </section>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/3.jpg"
+                  alt="Speaker 3"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
+                  <p>Fugiat laborum et</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/4.jpg"
+                  alt="Speaker 4"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
+                  <p>Debitis iure vero</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/5.jpg"
+                  alt="Speaker 5"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
+                  <p>Qui molestiae natus</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/6.jpg"
+                  alt="Speaker 6"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                  <p>Non autem dicta</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/1.jpg"
+                  alt="Speaker 1"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Brenden Legros</a></h3>
+                  <p>Quas alias incidunt</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/2.jpg"
+                  alt="Speaker 2"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
+                  <p>Consequuntur odio aut</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/3.jpg"
+                  alt="Speaker 3"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
+                  <p>Fugiat laborum et</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/4.jpg"
+                  alt="Speaker 4"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
+                  <p>Debitis iure vero</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/5.jpg"
+                  alt="Speaker 5"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
+                  <p>Qui molestiae natus</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img
+                  src="img/speakers/6.jpg"
+                  alt="Speaker 6"
+                  class="img-fluid"
+                />
+                <div class="details">
+                  <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                  <p>Non autem dicta</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </section>
 
         <!--==========================
       Contact Section
@@ -1177,7 +1333,7 @@ thereafter prizes and certificates will be provided.
             <div class="container">
                 <div class="section-header">
                     <h2>Contact Us</h2>
-                    <p>Nihil officia ut sint molestiae tenetur.</p>
+
                 </div>
 
                 <div class="row contact-info">
@@ -1198,7 +1354,7 @@ thereafter prizes and certificates will be provided.
                             <h3>Phone Number</h3>
 
                             <p><a href="tel:+916001917186">Swetashree Dey Purkaystha : 6001917186</a></p>
-                            <p><a href="tel:+919706162975"> Kunjal Sarma : 9706162975</a></p>
+                            <p><a href="tel:+919706162975">Kaustov Duwarah : 91016 56982</a></p>
 
                         </div>
                     </div>
@@ -1213,69 +1369,6 @@ thereafter prizes and certificates will be provided.
                         </div>
                     </div>
                 </div>
-
-
-                <!-- <div class="form">
-
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <input
-                    type="text"
-                    name="name"
-                    class="form-control"
-                    id="name"
-                    placeholder="Your Name"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars"
-                  />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <input
-                    type="email"
-                    class="form-control"
-                    name="email"
-                    id="email"
-                    placeholder="Your Email"
-                    data-rule="email"
-                    data-msg="Please enter a valid email"
-                  />
-                  <div class="validation"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control"
-                  name="subject"
-                  id="subject"
-                  placeholder="Subject"
-                  data-rule="minlen:4"
-                  data-msg="Please enter at least 8 chars of subject"
-                />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea
-                  class="form-control"
-                  name="message"
-                  rows="5"
-                  data-rule="required"
-                  data-msg="Please write something for us"
-                  placeholder="Message"
-                ></textarea>
-                <div class="validation"></div>
-              </div>
-              <div class="text-center">
-                <button type="submit">Send Message</button>
-              </div>
-            </form>
-
-          </div> -->
-
             </div>
         </section>
         <!-- #contact -->
@@ -1297,29 +1390,6 @@ thereafter prizes and certificates will be provided.
                         </p>
                     </div>
 
-                    <!-- <div class="col-lg-3 col-md-6 footer-links">
-
-              <h4>Useful Links</h4>
-              <ul>
-                <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-                <li>
-                  <i class="fa fa-angle-right"></i> <a href="#">About us</a>
-                </li>
-                <li>
-                  <i class="fa fa-angle-right"></i> <a href="#">Services</a>
-                </li>
-                <li>
-                  <i class="fa fa-angle-right"></i>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="fa fa-angle-right"></i>
-                  <a href="#">Privacy policy</a>
-                </li>
-              </ul>
-
-            </div> -->
-
                     <div class="col-lg-3 col-md-3 footer-links">
 
                         <h4>Useful Links</h4>
@@ -1329,25 +1399,15 @@ thereafter prizes and certificates will be provided.
                                 <i class="fa fa-angle-right"></i> <a href="#">About us</a>
                             </li>
 
-                            <!-- <li>
-                  <i class="fa fa-angle-right"></i> <a href="#">Services</a>
-                </li> -->
-                            <!-- <li>
-                  <i class="fa fa-angle-right"></i>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="fa fa-angle-right"></i>
-                  <a href="#">Privacy policy</a>
-                </li> -->
+
                         </ul>
                     </div>
 
                     <div class="col-lg-3 col-md-3 footer-links">
                         <h4>Important Dates</h4>
-
-                        <p><b>Codestellation:</b> 31st March-1 April</p>
-                        <p><b>Decode_Stack:</b> 31st March</p>
+                        <p><b>Decode_Stack:</b> 30th March</p>
+                        <p><b>Codestellation:</b> 31st March-1st April</p>
+                      
                         <!-- <li>
                   <i class="fa fa-angle-right"></i> <a href="#">Services</a>
                 </li> -->
@@ -1368,7 +1428,7 @@ thereafter prizes and certificates will be provided.
                         <p>
                             Assam Engineering College</br>
                             Jalukbari,Guwahti-13</br>
-                            <strong>Phone:</strong> +91 6001917186<br />
+                            <strong>Phone:</strong> +91 91016 56982<br />
                             <strong>Email:</strong> codewar.outreach@gmail.com<br />
                         </p>
 
@@ -1392,7 +1452,7 @@ thereafter prizes and certificates will be provided.
         <div class="container">
             <div class="copyright" style="text-align: center">
 
-                Copyright <strong>AECCodingfClub</strong>. All Rights Reserved
+                Copyright <strong>@ 2022 AEC Coding Club</strong>. All Rights Reserved
 
             </div>
             <div class="credits">
@@ -1430,4 +1490,4 @@ thereafter prizes and certificates will be provided.
     <script src="js/main.js"></script>
 </body>
 
-</html>oo
+</html>

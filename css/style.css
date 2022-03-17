@@ -1,6 +1,5 @@
 body {
-    background: #1b1d1e;
-    color: #fff;
+    background color: #fff;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -32,9 +31,11 @@ h6 {
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
+    color: rgb(0, 0, 0);
+}
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
     color: #fff;
 }
-
 .main-page {
     margin-top: 70px;
 }
@@ -800,6 +801,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule {
     padding: 60px 0 60px 0;
+    height: ;
 }
 
 #schedule .nav-tabs {
