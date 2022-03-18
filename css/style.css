@@ -1,6 +1,6 @@
 body {
-    background color: #fff;
-    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+    font-family: "Open Sans, sans-serif";
 }
 
 a {
@@ -801,7 +801,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule {
     padding: 60px 0 60px 0;
-    height: ;
+    /* height: ; */
 }
 
 #schedule .nav-tabs {
@@ -1077,8 +1077,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .galleryImg {
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     object-fit: cover;
     padding-right: 20px;
     padding-left: 20px;
@@ -1747,9 +1747,4 @@ spons #footer .credits {
     #subscribe button {
         margin-top: 10px;
     }
-}
-
-
-}
-
 }
