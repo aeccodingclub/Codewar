@@ -1,4 +1,4 @@
-CodeWar 3.0
+# CodeWar 3.0
 
 
 Decode_Stack :- This Competitive Programming contest will be conducted in two stages: the Debugging Round, and the Final Code War. We shall provide participation certificates to all the participating students, goodies to the winner of the debugging round and finally, the three winners of the competition shall get prizes and certificates.
