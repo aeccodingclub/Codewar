@@ -1730,3 +1730,45 @@ spons #footer .credits {
     margin-top: 10px;
   }
 }
+
+
+
+/* For Text */
+.background {
+  display: grid;
+  place-content: center;
+  background: linear-gradient(to right, white, red 30%, #00c4ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 900;
+  font-size: 3rem;
+  background-position-x: 0;
+  text-shadow: 2px 2px 1px #fff5, -2px -2px 1px #0005;
+  animation: slide 10s linear alternate infinite;
+}
+@keyframes slide {
+  0% {
+    background-position-x: 100vw;
+  }
+  50% {
+    background-position-x: 100vw;
+  }
+  100% {
+    background-position-x: 0vw;
+  }
+}
+
+
+/* Events */
+
+.eventContainer{
+  height: 300px;
+}
+
+
+/* Footer para */
+.footerPara{
+  text-align: justify;
+  margin-right: 10px;
+}
