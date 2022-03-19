@@ -530,8 +530,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn {
-    width: 94px;
-    height: 94px;
+    width: 80px;
+    height: 80px;
     background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
     border-radius: 50%;
     display: block;
@@ -613,7 +613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 50px;
     transition: 0.5s;
     line-height: 1;
-    margin: 10px;
+    /* margin: 10px; */
     color: #fff;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
