@@ -1603,13 +1603,13 @@ spons #footer .credits {
 
 .flex-left {
   padding: 1em;
-  width: 48%;
+  /* width: 48%; */
   /* height: 100vh; */
 }
 
 .flex-right {
   padding: 1em;
-  width: 48%;
+  /* width: 48%; */
 }
 
 .section-with-bg {
@@ -1731,8 +1731,6 @@ spons #footer .credits {
   }
 }
 
-
-
 /* For Text */
 .background {
   display: grid;
@@ -1759,16 +1757,14 @@ spons #footer .credits {
   }
 }
 
-
 /* Events */
 
-.eventContainer{
+.eventContainer {
   height: 300px;
 }
 
-
 /* Footer para */
-.footerPara{
+.footerPara {
   text-align: justify;
   margin-right: 10px;
 }
